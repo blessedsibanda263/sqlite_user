@@ -1,4 +1,4 @@
-module sqlite_user
+module github.com/blessedsibanda263/sqlite_user
 
 go 1.23.2
 
