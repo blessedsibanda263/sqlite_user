@@ -110,7 +110,7 @@ func DeleteUser(id int) error {
 	}
 
 	// Delete from Userdata
-	deleteStatement := `DELETE FROM Usedata WHERE UserID = ?`
+	deleteStatement := `DELETE FROM Userdata WHERE UserID = ?`
 	_, err = db.Exec(deleteStatement, id)
 	if err != nil {
 		return err
