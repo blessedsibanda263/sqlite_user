@@ -1,4 +1,4 @@
-package sqliteuser
+package sqlite_user
 
 import (
 	"database/sql"
